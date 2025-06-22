@@ -1,10 +1,7 @@
-/* Element Selectors */
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.5;
     background-color: #0d1117;
     color: #c9d1d9;
@@ -16,8 +13,6 @@ h1 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 24px;
     font-weight: bold;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.2;
     background-color: #161b22;
     color: #ffffff;
@@ -27,9 +22,6 @@ h1 {
 p {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.5;
     background-color: #161b22;
     color: #8b949e;
@@ -39,9 +31,6 @@ p {
 input {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.2;
     background-color: #0d1117;
     color: #c9d1d9;
@@ -54,8 +43,6 @@ button {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-weight: bold;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.2;
     background-color: #1f6feb;
     color: #ffffff;
@@ -67,9 +54,6 @@ button {
 ul {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.5;
     background-color: #161b22;
     color: #58a6ff;
@@ -80,9 +64,6 @@ ul {
 li {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.5;
     background-color: #161b22;
     color: #8b949e;
@@ -92,9 +73,6 @@ li {
 select {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.2;
     background-color: #0d1117;
     color: #c9d1d9;
@@ -106,22 +84,16 @@ select {
 a {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.2;
     background-color: #161b22;
     color: #58a6ff;
     text-decoration: none;
 }
 
-/* Class Selectors */
 .header {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: bold;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.5;
     background-color: #161b22;
     color: #ffffff;
@@ -138,8 +110,6 @@ a {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.2;
     background-color: #161b22;
     color: #ffffff;
@@ -148,9 +118,6 @@ a {
 .search-bar {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.2;
     background-color: #161b22;
     color: #c9d1d9;
@@ -161,9 +128,6 @@ a {
 .header-icons {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.5;
     background-color: #161b22;
     color: #c9d1d9;
@@ -178,10 +142,6 @@ a {
 }
 .main-content {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.5;
     background-color: #0d1117;
     color: #c9d1d9;
@@ -191,9 +151,6 @@ a {
 .copilot-section {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.4;
     background-color: #161b22;
     color: #8b949e;
@@ -203,25 +160,11 @@ a {
 .feed {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.5;
     background-color: #161b22;
     color: #c9d1d9;
 }
 
-.date-time {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: normal;
-    line-height: 1.5;
-    background-color: #161b22;
-    color: #8b949e;
-    margin-top: 20px;
-}
 
 .sidebar {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -240,9 +183,6 @@ a {
 .top-repos {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.4;
     background-color: #161b22;
     color: #8b949e;
@@ -251,9 +191,6 @@ a {
 .right-panel {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1.5;
     background-color: #161b22;
     color: #8b949e;
