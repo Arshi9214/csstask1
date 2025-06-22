@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <i class="fab fa-github"></i>
+        <div class="logo">    Dashboard</div>
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Type to search">
+        </div>
+        <div class="header-icons">
+            <span>+</span> 
+            <span><i class="fas fa-code-pull-request"></i></span>
+            <span>🔔</span>
+            <span><i class="fa-brands fa-square-github"></i></span>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <td class="sidebar">
+
+                <div class="top-repos">
+                    <p>Top repositories</p>
+                    <button>New</button>
+                    <input type="text" placeholder="Find a repository...">
+                    <ul>
+                        <li>Arshi9214/website</li>
+                        <li>Arshi9214/demo1.1</li>
+                        <li>Arshi9214/Demo</li>
+                    </ul>
+                </div>
+            </td>
+            <td class="main-content">
+                <h1>Home</h1>
+                <div class="copilot-section">
+                    <p>Ask Copilot</p>
+                    <button>Interpret an architecture diagram</button>
+                    <button>Suggest next steps for an issue</button>
+                </div>
+                <div class="feed">
+                    <h2>Feed</h2>
+                    <select>
+                        <option>Filter</option>
+                    </select>
+                    <ul>
+                        <li>
+                            <p><strong>microsoft/fluentui-system-icons</strong></p>
+                            <p>Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.</p>
+                            <p><span>HTML</span> <span>8.3k</span></p>
+                        </li>
+                        <li>
+                            <p><strong>memresearch/jan</strong></p>
+                            <p>Jan is an open source alternative to ChatGPT that runs 100% offline on your computer</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="date-time">
+                    <p>Current Date and Time: 10:30 PM IST, Sunday, June 22, 2025</p>
+                </div>
+            </td>
+            <td class="right-panel">
+                <h2>Latest changes</h2>
+                <ul>
+                    <li>5 days ago<br>Agent mode and MCP now generally available in Visual Studio</li>
+                    <li>5 days ago<br>Dependency graph now defaults to off</li>
+                    <li>5 days ago<br>CodeQL pull request alerts now include...</li>
+                    <li>Last week<br>Organization rulesets now available for GitHub Team plans</li>
+                </ul>
+                <p><a href="#">View changelog</a></p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
